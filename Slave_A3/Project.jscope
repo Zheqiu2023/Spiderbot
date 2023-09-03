@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="0" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="0" JTAG_DRPre="0" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\Desktop\Slave_A3\MDK-ARM\A3\A3.axf" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="rx_state" Address="0x20000014" Type="uchar" TypeID="6" Size="1" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="2" YMaxSampled="3" YAvgSampled="2.50735" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="0" IsAutoConfig="0" YResolution="1" MaxValue="255" File="../Core/Src/usart.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="tarspeed" Address="0x20000000" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-1991" YMaxSampled="1982" YAvgSampled="-7.14292" Offset="5" ShowInGraph="1" ACCoupling="0" YOffset="0" IsAutoConfig="0" YResolution="500" MaxValue="32767" File="../Core/Src/main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed" Address="0x20000004" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-1967" YMaxSampled="2263" YAvgSampled="-2.77088" Offset="9" ShowInGraph="1" ACCoupling="0" YOffset="0" IsAutoConfig="0" YResolution="1000" MaxValue="32767" File="../Core/Src/main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="tarangle" Address="0x20000008" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="0" YMaxSampled="4000" YAvgSampled="1970.96" Offset="11" ShowInGraph="1" ACCoupling="0" YOffset="0" IsAutoConfig="0" YResolution="1000" MaxValue="2147483647" File="../Core/Src/main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="continuous_angle" Address="0x2000000C" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="35.5225" YMaxSampled="3984.38" YAvgSampled="1985.39" Offset="15" ShowInGraph="1" ACCoupling="0" YOffset="0" IsAutoConfig="0" YResolution="1000" MaxValue="-2147483648" File="../Core/Src/main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
